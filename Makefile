@@ -15,3 +15,7 @@ vet: fmt
 build: vet
 	go build -o main main.go
 .PHONY:build
+
+run: build
+	./main
+.PHONY:run
