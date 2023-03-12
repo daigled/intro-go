@@ -49,4 +49,6 @@ func main() {
 	exampleTypeConversion()
 
 	arraysExample()
+
+	slicesExample()
 }
